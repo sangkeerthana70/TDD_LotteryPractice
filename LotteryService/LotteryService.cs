@@ -12,7 +12,7 @@ namespace LotteryService
             Array.Sort(lotteryNums);
             foreach(var num in lotteryNums)
             {
-                 Console.WriteLine(num.ToString());
+                 Console.WriteLine("Sorted Numbers: " + num);
             }
             //Console.WriteLine(lotteryNums);
             return lotteryNums;
